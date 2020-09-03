@@ -46,6 +46,10 @@ main {
     color: white;
 }
 
+.main-nav__list-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .main-nav__list-item a {
     color: white;
     text-decoration: none;
